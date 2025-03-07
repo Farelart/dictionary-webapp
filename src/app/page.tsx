@@ -11,7 +11,7 @@ export default async function Home({searchParams}: HomeProps) {
   const query = params.q || "keyboard"
 
   return (
-    <main className="w-[70%] mx-auto">
+    <main className="w-[85%] md:w-[70%] mx-auto">
       <nav className="flex justify-between my-8">
         <BsBook size={30} color="gray" />
         <BsMoon size={20} color="gray"/>
