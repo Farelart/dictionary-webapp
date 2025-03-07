@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+:root {
+  --background: white;
+}
+
+body {
+  font-family: var(--font-josefin-sans);
+  background-color: var(--background);
+}
