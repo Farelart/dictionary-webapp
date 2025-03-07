@@ -3,7 +3,7 @@ import WordResults from "@/components/WordResults"
 import SearchForm from "@/components/SearchForm"
 
 type HomeProps = {
-  searchParams: {q: string}
+  searchParams: Promise<{q?: string}>
 }
 
 export default async function Home({searchParams}: HomeProps) {
